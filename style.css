@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: 0px 166px;
+}
+.header{
+    background: url(./img/фон1.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-line{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 85px;
+}
+.nav-item{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    background-color: peru;
+    border-radius: 15px ;
+    padding: 7px 10px;
+}
+.button{
+    background-color: peru;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 19px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.header-down{
+    position: relative;
+    
+}
+.header-title{
+    color: white;  
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 70px;
+    margin-bottom: 12px;
+}
+.headr-subtitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.headr-subtitle:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+    top: 148px;
+    left: 355px;
+}
+.headr-subtitle:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+    top: 148px;
+    left: 108px;
+}
+.headr-button{
+    background-color: peru;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.card{
+    width: 30%;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -60px;
+    padding: 0px 10px;
+    border-radius: 8px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-desc{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #656363;
+}
+.card-holder{
+    display: flex;
+    justify-content: center;
+}
+.card-title span{
+    color: palevioletred;
+    padding: 0px 5px;
+}
+.histori{
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+.histori-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    width: 444px;
+    text-align: center;
+    padding: 21px 0px;
+}
+.histori-title span{
+    color: peru;
+}
+.histori-desc{
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+.histori-number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: peru;
+}
+.number-item span{
+    display: block;
+    color: #656363;
+}
+.histori-holder{
+    display: flex;
+
+justify-content: space-between;
+}
+.histori-images{
+    position: relative;
+}
+.images-1{
+    position: absolute;
+    z-index: 999;
+    top: 150px;
+    left: -368px;
+}
+.images-2{
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: -215px;
+}
+.images-3{
+    position: absolute;
+    z-index: 999;
+    top: -30px;
+    left: -45px;
+}
+.black-block{
+    background: url(./img/фон2.jpg) ;
+    padding: 30px 0px;
+    background-size: 1415px;
+}
+.left-title{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 400; 
+    margin-bottom: 20px;
+   
+}
+.left-text{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+.right-btn{
+    background-color: peru;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 19px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.disp{
+    display: none;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.asia-menu{
+    display: none;
+}
+.block{
+    display: block;
+}
+.azia-slide{
+    position: absolute;
+   
+}
+.nav-iten{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+/*МЕДИЯ ЗАПРОСЫ*/
+@media (max-width: 1185px){
+    .header-title{
+        position: static;
+    }
+    .headr-subtitle:before,
+    .headr-subtitle:after{
+        content: none;
+    }
+    .block-holder{
+        display: block;
+    }
+    .left-title,
+    .left-text,
+    .right-button{
+        text-align: center;
+    }
+    .right-button{
+        margin-top: 20px;
+    }
+    .histori-images{
+        display: none;
+    }
+    .histori-title,
+    .histori-desc,
+    .histori-number{
+        width: auto;
+    }
+}
+@media (max-width: 1185px){
+    .asia-menu{
+        display: block;
+    }
+    .nav,
+    .btn{
+        display: none;
+    }
+    .header-line{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1000px){
+    .card-holder{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 1229px){
+    .histori-holder{
+        display: block;
+    }
+    .container{
+        margin: auto 80px;
+    }
+}

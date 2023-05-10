@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: 0px 166px;
+}
+.header{
+    background: url(../img/фон1.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-line{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 85px;
+}
+.nav-item{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    background-color: peru;
+    border-radius: 15px ;
+    padding: 7px 10px;
+}
+.button{
+    background-color: peru;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 19px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.disp{
+    display: none;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.asia-menu{
+    display: none;
+}
+.block{
+    display: block;
+}
+.azia-slide{
+    position: absolute;
+   
+}
+.nav-iten{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.title-text{
+    padding: 45px 0px 0px 0px;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+.menu-title{
+    color: white;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 98px;
+    padding-bottom: 85px;
+}
+.menu-item{
+    background-color: white;
+    text-align: center;
+    width: 405px;
+    padding-top: 80px;
+    border-radius: 26px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+.menu-text{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+.menu-subtext{
+    color: grey;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.menu-btn{
+    background-color: peru;
+    text-decoration: none;
+    padding: 14px 68px ;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 26px;
+}
+.menu-button{
+    margin-top: 20px;
+}
+.price-images{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+}
+.menu-image{
+    position: relative;
+}
+.price-200{
+    position: absolute;
+    top: 173px;
+    left: 195px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+}
+.menu-2{
+    background: url(../img/меню\ фон\ 1.jpg);
+    background-size: cover;
+}
+/*               МЕДИЯ    ЗАПРОСЫ            */
+@media (max-width: 1185px){
+    .header-title{
+        position: static;
+    }
+    .headr-subtitle:before,
+    .headr-subtitle:after{
+        content: none;
+    }
+    .block-holder{
+        display: block;
+    }
+    .left-title,
+    .left-text,
+    .right-button{
+        text-align: center;
+    }
+    .right-button{
+        margin-top: 20px;
+    }
+    .histori-images{
+        display: none;
+    }
+    .histori-title,
+    .histori-desc,
+    .histori-number{
+        width: auto;
+    }
+}
+@media (max-width: 1185px){
+    .asia-menu{
+        display: block;
+    }
+    .nav,
+    .btn{
+        display: none;
+    }
+    .header-line{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1000px){
+    .card-holder{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 1229px){
+    .histori-holder{
+        display: block;
+    }
+    .container{
+        margin: auto 80px;
+    }
+}
+@media (max-width:  1185px) {
+    .menu-items{
+        width: auto;
+        display: block;
+        justify-content: space-around;
+    }
+}
